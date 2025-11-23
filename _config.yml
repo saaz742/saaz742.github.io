@@ -1,15 +1,15 @@
+# _config.yml for Sara Azarnoush GitHub Pages
 
 locale: "Tehran - Iran"
 title: "Sara Azarnoush"
 title_separator: "-"
 name: "Sara Azarnoush"
 description: "Computer Engineering Graduate from Sharif University of Technology | AI & ML Enthusiast | NLP & CV"
-url: "https://saaz742.github.io"
+url: "[https://saaz742.github.io](https://saaz742.github.io)"
 baseurl: ""
 repository: "saaz742/saaz742.github.io"
 
-
-theme: "jekyll-theme-slate" # fully compatible with GitHub Pages
+theme: "jekyll-theme-slate"
 
 theme_color: "#1a1a2e"
 highlight_color: "#ff6700"
