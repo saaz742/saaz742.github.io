@@ -1,0 +1,41 @@
+---
+layout: single
+title: "Home"
+author_profile: true
+---
+
+<header>
+  <img src="{{ site.author.avatar }}" alt="{{ site.author.name }}">
+  <h1>{{ site.author.name }}</h1>
+  <h2>Computer Engineering | AI, ML, NLP, CV</h2>
+  <p>{{ site.author.location }} | {{ site.author.pronouns }}</p>
+</header>
+
+<section class="bio">
+  <h3>About Me</h3>
+  <p>{{ site.author.bio }}</p>
+</section>
+
+<section class="welcome">
+  <h3>Welcome!</h3>
+  <p>I’m {{ site.author.name }}, a Computer Engineer who graduated from Sharif University.</p>
+  <p>My interests are:</p>
+  <ul>
+    <li>Natural Language Processing (NLP)</li>
+    <li>Machine Learning (ML)</li>
+    <li>Computer Vision (CV)</li>
+    <li>Distributed Systems & Blockchain</li>
+  </ul>
+</section>
+
+<section class="links">
+  {% for category in site.profiles %}
+    <h3>{{ category | capitalize }} Profiles</h3>
+    {% for key, value in site.profiles[category] %}
+      <div class="link-card">
+        <span class="category-title">{{ key | capitalize }}</span>
+        <a href="{{ value }}" target="_blank">View</a>
+      </div>
+    {% endfor %}
+  {% endfor %}
+</section>
