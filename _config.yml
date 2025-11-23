@@ -1,80 +1,205 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change this file, please restart the 
+# server process.
 
-locale: "Tehran - Iran"
-title: "Sara Azarnoush"
-title_separator: "-"
-description: "Computer Engineering Graduate from Sharif University of Technology | AI & ML | NLP & CV"
-url: "https://saaz742.github.io"
-baseurl: ""
-repository: "saaz742/saaz742.github.io"
+# Basic Site Settings
+locale                   : "Tehran - Iran"
+title                    : "Sara Azarnoush"
+title_separator          : "-"
+name                     : &name "Sara Azarnoush"
+description              : &description "CE Graduated From Sharif University"
+url                      : https://saaz742.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+baseurl                  : "" # the subpath of your site, e.g. "/blog"
+repository               : "saaz742/saaz742.github.io"
 
-theme: "jekyll-theme-slate"
-theme_color: "#1a1a2e"
-highlight_color: "#ff6700"
-font_family: "Inter, sans-serif"
-
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar: "me.jpg"
-  name: "Sara Azarnoush"
-  pronouns: "she/her"
-  bio: "I'm a Computer Engineering graduate from Sharif University of Technology, passionate about AI, ML, NLP, and Computer Vision. I develop intelligent systems and applies data science to real-world problems, while actively researching and building AI projects."
-  location: "Tehran, Iran"
-  email: "Sara.azarnoushh@gmail.com"
+  # Biographic information
+  avatar           : "me.jpg"
+  name             : "Sara Azarnoush"
+  pronouns         : "she/her"  
+  bio              : "I'm a Computer Engineering graduate from Sharif University of Technology, passionate about AI, ML, NLP, and Computer Vision. I develop intelligent systems and applies data science to real-world problems, while actively researching and building AI projects.""
+  location         : "Tehran - Iran"
+  employer         : #"Red Brick University"
+  uri              : # URL
+  email            : "Sara.azarnoushh@gmail.com" 
 
-profiles:
-  academic:
-    arxiv: "https://arxiv.org/a/azarnoush_s.html"
-    googlescholar: "https://scholar.google.com/citations?user=VqBL8YAAAAAJ&hl=en"
-    semantic: "https://www.semanticscholar.org/author/Sara-Azarnoush/2165528162"
-    orcid: "https://orcid.org/0000-0002-7435-0535"
-    pubmed: "https://www.ncbi.nlm.nih.gov/myncbi/saaz"
-    researchgate: "https://www.researchgate.net/profile/Sara-Azarnoush"
+  # Academic websites
+  arxiv            : "https://arxiv.org/a/azarnoush_s.html"
+  googlescholar    : "https://scholar.google.com/citations?user=VqBL8YAAAAAJ&hl=en&oi=ao"
+  impactstory      : #
+  orcid            : "https://orcid.org/my-orcid?orcid=0000-0002-7435-0535"
+  semantic         : "https://www.semanticscholar.org/author/Sara-Azarnoush/2165528162"
+  pubmed           : "https://www.ncbi.nlm.nih.gov/myncbi/saaz@orcid"
+  researchgate     : "https://www.researchgate.net/profile/Sara-Azarnoush"
+  scopus           : #
 
-  dev:
-    github: "https://github.com/saaz742"
-    bitbucket: "https://bitbucket.org/saaz742"
-    kaggle: "https://www.kaggle.com/saraazar"
-    huggingface: "https://huggingface.co/Saaz742"
-    codepen: "https://codepen.io/saaz742"
+  # Repositories and software development
+  bitbucket        : "Sara Azarnoush"
+  codepen          : "saaz742"
+  dribbble         : "sara-azarnoush"
+  github           : "saaz742"
+  kaggle           : "saraazar" 
+  stackoverflow    : "18395778/saaz742" 
+  huggingface      : "https://huggingface.co/Saaz742"
 
-  creative:
-    dribbble: "https://dribbble.com/sara-azarnoush"
-    instagram: "https://instagram.com/saaz742"
+  # Social media
+  bluesky          : "saaz742.app"
+  facebook         : # Username
+  flickr           : # Username
+  foursquare       : # Username
+  goodreads        : # Username
+  google_plus      : # Username
+  keybase          : # Username
+  instagram        : # Username
+  lastfm           : # Username
+  linkedin         : "sara azarnoush"
+  mastodon         : # URL
+  medium           : # URL
+  pinterest        : # Username
+  soundcloud       : # Username
+  steam            : "saaz742"
+  telegram         : "saaz742"
+  tumblr           : # Username
+  twitter          : "AzarnoushSara"
+  vine             : # Username
+  weibo            : # Username
+  wikipedia        : # Username
+  xing             : # Username
+  youtube          : # Username
+  zhihu            : # Username
 
-  social:
-    linkedin: "https://www.linkedin.com/in/sara-azarnoush"
-    twitter: "https://twitter.com/AzarnoushSara"
-    bluesky: "https://bsky.app/profile/saaz742.bsky.social"
-    telegram: "https://t.me/saaz742"
+# Publication Category - The following the list of publication categories and their headings
+publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'    
+  conferences:
+    title: 'Conference Papers'
 
-  gaming:
-    steam: "https://steamcommunity.com/id/saaz742"
-
-teaser: ""
-breadcrumbs: false
-words_per_minute: 160
-future: true
-read_more: "disabled"
-talkmap_link: false
+# Site Settings
+teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
+breadcrumbs              : false # true, false (default)
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
+talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
-  provider: false
+  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  disqus:
+    shortname            :
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+staticman:
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "gh-pages" # "master", "gh-pages"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "_data/comments/{options.slug}"
+  requiredFields         : ['name', 'email', 'message']
+  transforms:
+    email                : "md5"
+  generatedFields:
+    date:
+      type               : "date"
+      options:
+        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+atom_feed:
+  hide                   : false     # change to true to hide the RSS feed in the footer
+  path                   : # blank (default) uses feed.xml
 
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jemoji
 
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+
+# Social Sharing
+twitter:
+  username               : &twitter
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 :  # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+
+
+# Analytics
+analytics:
+  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  google:
+    tracking_id          :
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - files
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - .asset-cache
+  - .bundle
+  - .github
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/_main.js
+  - assets/js/plugins
+  - assets/js/vendor
+  - CHANGELOG
+  - Capfile
+  - config
+  - Dockerfile
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - local
+  - log
+  - node_modules
+  - package.json*
+  - Rakefile
+  - README
+  - tmp
+  - vendor
 keep_files:
   - .git
-
+  - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+
+# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -85,17 +210,144 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+
+# These settings control the types of collections used by the template
+# collections:
+#   teaching:
+#     output: true
+#     permalink: /:collection/:path/
+#   publications:
+#     output: true
+#     permalink: /:collection/:path/
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # talks:
+  #   output: true
+  #   permalink: /:collection/:path/
+
+
+# These settings control how pages and collections are included in the site
 defaults:
+  # _posts
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     read_time: true
+  #     comments: true
+  #     share: true
+  #     related: true
+  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
+  # _teaching
+  # - scope:
+    #   path: ""
+    #   type: teaching
+    # values:
+    #   layout: single
+    #   author_profile: true
+    #   share: true
+    #   comments: true
+  # _publications
+  # - scope:
+  #     path: ""
+  #     type: publications
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comments: true
+  # _portfolio
+  # - scope:
+  #     path: ""
+  #     type: portfolio
+  #   values:
+  #     layout: single
+  #     author_profile: true
+  #     share: true
+  #     comment: true
+  # _talks
+  # - scope:
+  #     path: ""
+  #     type: talks
+  #   values:
+  #     layout: talk
+  #     author_profile: true
+  #     share: true
 
+
+# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
+
+# Outputting
 permalink: /:categories/:title/
-timezone: Etc/UTC
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
+timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+# Mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jemoji
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
