@@ -2,10 +2,12 @@ locale: "Tehran - Iran"
 title: "Sara Azarnoush"
 title_separator: "-"
 name: "Sara Azarnoush"
-description: "Computer Engineering Graduate from Sharif University of Technology, AI Enthusiast"
+description: "Computer Engineering Graduate from Sharif University of Technology | AI & ML Enthusiast | NLP & CV"
 url: "[https://saaz742.github.io](https://saaz742.github.io)"
 baseurl: ""
 repository: "saaz742/saaz742.github.io"
+
+theme: "jekyll-theme-slate" # fully compatible with GitHub Pages
 
 theme_color: "#1a1a2e"
 highlight_color: "#ff6700"
@@ -15,7 +17,7 @@ author:
 avatar: "me.jpg"
 name: "Sara Azarnoush"
 pronouns: "she/her"
-bio: "Sara Azarnoush is a Computer Engineering graduate from Sharif University of Technology, passionate about Machine Learning, NLP, Computer Vision, and AI-driven innovation. She builds intelligent systems, explores research frontiers, and develops products that merge data science with real-world applications. Currently working on AI projects and expanding her personal research and professional portfolio."
+bio: "Sara Azarnoush is a Computer Engineering graduate from Sharif University of Technology, passionate about AI, ML, NLP, and Computer Vision. She develops intelligent systems and applies data science to real-world problems, while actively researching and building AI projects."
 location: "Tehran, Iran"
 email: "[Sara.azarnoushh@gmail.com](mailto:Sara.azarnoushh@gmail.com)"
 
@@ -26,7 +28,6 @@ orcid: "[https://orcid.org/0000-0002-7435-0535](https://orcid.org/0000-0002-7435
 semantic: "[https://www.semanticscholar.org/author/Sara-Azarnoush/2165528162](https://www.semanticscholar.org/author/Sara-Azarnoush/2165528162)"
 pubmed: "[https://www.ncbi.nlm.nih.gov/myncbi/saaz](https://www.ncbi.nlm.nih.gov/myncbi/saaz)"
 researchgate: "[https://www.researchgate.net/profile/Sara-Azarnoush](https://www.researchgate.net/profile/Sara-Azarnoush)"
-scopus: ""
 
 dev_profiles:
 github: "[https://github.com/saaz742](https://github.com/saaz742)"
@@ -47,14 +48,6 @@ telegram: "[https://t.me/saaz742](https://t.me/saaz742)"
 
 gaming_profiles:
 steam: "[https://steamcommunity.com/id/saaz742](https://steamcommunity.com/id/saaz742)"
-
-publication_category:
-books:
-title: "Books"
-manuscripts:
-title: "Journal Articles"
-conferences:
-title: "Conference Papers"
 
 teaser: ""
 breadcrumbs: false
@@ -96,50 +89,16 @@ url: "[https://orcid.org/0000-0002-7435-0535](https://orcid.org/0000-0002-7435-0
 - name: "Semantic Scholar"
 url: "[https://www.semanticscholar.org/author/Sara-Azarnoush/2165528162](https://www.semanticscholar.org/author/Sara-Azarnoush/2165528162)"
 
-analytics:
-provider: false
-google:
-tracking_id: ""
+plugins:
 
-include:
-
-* .htaccess
-* _pages
-* files
-
-exclude:
-
-* "*.sublime-project"
-* "*.sublime-workspace"
-* .asset-cache
-* .bundle
-* .github
-* .jekyll-assets-cache
-* .sass-cache
-* assets/js/_main.js
-* assets/js/plugins
-* assets/js/vendor
-* CHANGELOG
-* Capfile
-* config
-* Dockerfile
-* Gemfile
-* Gruntfile.js
-* gulpfile.js
-* LICENSE
-* local
-* log
-* node_modules
-* package.json*
-* Rakefile
-* README
-* tmp
-* vendor
+* jekyll-feed
+* jekyll-paginate
+* jekyll-sitemap
+* jemoji
 
 keep_files:
 
 * .git
-* .svn
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -174,15 +133,6 @@ style: compressed
 
 permalink: /:categories/:title/
 timezone: Etc/UTC
-
-plugins:
-
-* jekyll-feed
-* jekyll-gist
-* jekyll-paginate
-* jekyll-sitemap
-* jekyll-redirect-from
-* jemoji
 
 category_archive:
 type: liquid
