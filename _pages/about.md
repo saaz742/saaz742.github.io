@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-## 👋 Hello! Welcome!
-
 Hi, I'm **Sara Azarnoush** 👩🏻‍💻, a **Computer Engineer** from **Sharif University of Technology**. 
 
 I'm passionate about **AI**, and I love building **intelligent systems** and **real-world applications**. 🚀
