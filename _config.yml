@@ -1,105 +1,58 @@
 # =============================
 
-# Sara Azarnoush - Jekyll Site Config
+# Sara Azarnoush - Clean Jekyll Config
 
 # =============================
 
 locale: "Tehran - Iran"
 title: "Sara Azarnoush"
 title_separator: "-"
-name: &name "Sara Azarnoush"
-description: &description "Computer Engineering Graduate from Sharif University of Technology"
+name: "Sara Azarnoush"
+description: "Computer Engineering Graduate from Sharif University of Technology | AI & ML | NLP & CV"
 url: "[https://saaz742.github.io](https://saaz742.github.io)"
 baseurl: ""
 repository: "saaz742/saaz742.github.io"
 
-# -----------------------------
-
-# Author / Personal Info
-
-# -----------------------------
+theme: "jekyll-theme-slate"
+theme_color: "#1a1a2e"
+highlight_color: "#ff6700"
+font_family: "Inter, sans-serif"
 
 author:
 avatar: "me.jpg"
 name: "Sara Azarnoush"
 pronouns: "she/her"
-bio: "Sharif University CE graduate focusing on Machine Learning, NLP, and multimodal AI. Passionate about building intelligent systems, research, and real-world AI applications."
+bio: "Sara Azarnoush is a Computer Engineering graduate from Sharif University of Technology, passionate about AI, ML, NLP, and Computer Vision. She develops intelligent systems and applies data science to real-world problems, while actively researching and building AI projects."
 location: "Tehran, Iran"
 email: "[Sara.azarnoushh@gmail.com](mailto:Sara.azarnoushh@gmail.com)"
 
-# -----------------------------
-
-# Academic Profiles
-
-# -----------------------------
-
+profiles:
 arxiv: "[https://arxiv.org/a/azarnoush_s.html](https://arxiv.org/a/azarnoush_s.html)"
 googlescholar: "[https://scholar.google.com/citations?user=VqBL8YAAAAAJ&hl=en](https://scholar.google.com/citations?user=VqBL8YAAAAAJ&hl=en)"
 orcid: "[https://orcid.org/0000-0002-7435-0535](https://orcid.org/0000-0002-7435-0535)"
 semantic: "[https://www.semanticscholar.org/author/Sara-Azarnoush/2165528162](https://www.semanticscholar.org/author/Sara-Azarnoush/2165528162)"
-pubmed: "[https://www.ncbi.nlm.nih.gov/myncbi/saaz@orcid](https://www.ncbi.nlm.nih.gov/myncbi/saaz@orcid)"
+pubmed: "[https://www.ncbi.nlm.nih.gov/myncbi/saaz](https://www.ncbi.nlm.nih.gov/myncbi/saaz)"
 researchgate: "[https://www.researchgate.net/profile/Sara-Azarnoush](https://www.researchgate.net/profile/Sara-Azarnoush)"
-scopus: ""
 
-# -----------------------------
-
-# Development / Data Science
-
-# -----------------------------
-
+dev_profiles:
 github: "[https://github.com/saaz742](https://github.com/saaz742)"
 bitbucket: "[https://bitbucket.org/saaz742](https://bitbucket.org/saaz742)"
 kaggle: "[https://www.kaggle.com/saraazar](https://www.kaggle.com/saraazar)"
 huggingface: "[https://huggingface.co/Saaz742](https://huggingface.co/Saaz742)"
 codepen: "[https://codepen.io/saaz742](https://codepen.io/saaz742)"
 
-# -----------------------------
-
-# Creative / Design
-
-# -----------------------------
-
+creative_profiles:
 dribbble: "[https://dribbble.com/sara-azarnoush](https://dribbble.com/sara-azarnoush)"
+instagram: "[https://instagram.com/saaz742](https://instagram.com/saaz742)"
 
-# -----------------------------
-
-# Professional / Social
-
-# -----------------------------
-
+social_profiles:
 linkedin: "[https://www.linkedin.com/in/sara-azarnoush](https://www.linkedin.com/in/sara-azarnoush)"
 twitter: "[https://twitter.com/AzarnoushSara](https://twitter.com/AzarnoushSara)"
 bluesky: "[https://bsky.app/profile/saaz742.bsky.social](https://bsky.app/profile/saaz742.bsky.social)"
 telegram: "[https://t.me/saaz742](https://t.me/saaz742)"
-instagram: "[https://instagram.com/saaz742](https://instagram.com/saaz742)"
 
-# -----------------------------
-
-# Gaming / Other
-
-# -----------------------------
-
+gaming_profiles:
 steam: "[https://steamcommunity.com/id/saaz742](https://steamcommunity.com/id/saaz742)"
-
-# -----------------------------
-
-# Publication Categories
-
-# -----------------------------
-
-publication_category:
-books:
-title: "Books"
-manuscripts:
-title: "Journal Articles"
-conferences:
-title: "Conference Papers"
-
-# -----------------------------
-
-# Site Settings
-
-# -----------------------------
 
 teaser: ""
 breadcrumbs: false
@@ -107,30 +60,12 @@ words_per_minute: 160
 future: true
 read_more: "disabled"
 talkmap_link: false
-
 comments:
 provider: false
 
 atom_feed:
 hide: false
 path: ""
-
-# -----------------------------
-
-# SEO & Verification
-
-# -----------------------------
-
-google_site_verification: ""
-bing_site_verification: ""
-alexa_site_verification: ""
-yandex_site_verification: ""
-
-# -----------------------------
-
-# Social Sharing
-
-# -----------------------------
 
 social:
 type: "Person"
@@ -159,68 +94,19 @@ url: "[https://orcid.org/0000-0002-7435-0535](https://orcid.org/0000-0002-7435-0
 - name: "Semantic Scholar"
 url: "[https://www.semanticscholar.org/author/Sara-Azarnoush/2165528162](https://www.semanticscholar.org/author/Sara-Azarnoush/2165528162)"
 
-# -----------------------------
+plugins:
 
-# Analytics
+* jekyll-feed
+* jekyll-paginate
+* jekyll-sitemap
+* jemoji
 
-# -----------------------------
+keep_files:
 
-analytics:
-provider: false
-google:
-tracking_id: ""
-
-# -----------------------------
-
-# File Management
-
-# -----------------------------
-
-include:
-
-* .htaccess
-* _pages
-* files
-  exclude:
-* "*.sublime-project"
-* "*.sublime-workspace"
-* .asset-cache
-* .bundle
-* .github
-* .jekyll-assets-cache
-* .sass-cache
-* assets/js/_main.js
-* assets/js/plugins
-* assets/js/vendor
-* CHANGELOG
-* Capfile
-* config
-* Dockerfile
-* Gemfile
-* Gruntfile.js
-* gulpfile.js
-* LICENSE
-* local
-* log
-* node_modules
-* package.json*
-* Rakefile
-* README
-* tmp
-* vendor
-  keep_files:
 * .git
-* .svn
 
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-# -----------------------------
-
-# Markdown & HTML Processing
-
-# -----------------------------
-
 markdown: kramdown
 highlighter: rouge
 lsi: false
@@ -237,12 +123,6 @@ toc_levels: 1..6
 smart_quotes: lsquo,rsquo,ldquo,rdquo
 enable_coderay: false
 
-# -----------------------------
-
-# Collections / Defaults
-
-# -----------------------------
-
 defaults:
 
 * scope:
@@ -252,45 +132,12 @@ defaults:
   layout: single
   author_profile: true
 
-# -----------------------------
-
-# Sass / SCSS
-
-# -----------------------------
-
 sass:
 sass_dir: _sass
 style: compressed
 
-# -----------------------------
-
-# Output / Permalinks
-
-# -----------------------------
-
 permalink: /:categories/:title/
 timezone: Etc/UTC
-
-# -----------------------------
-
-# Plugins
-
-# -----------------------------
-
-plugins:
-
-* jekyll-feed
-* jekyll-gist
-* jekyll-paginate
-* jekyll-sitemap
-* jekyll-redirect-from
-* jemoji
-
-# -----------------------------
-
-# Archives
-
-# -----------------------------
 
 category_archive:
 type: liquid
@@ -298,12 +145,6 @@ path: /categories/
 tag_archive:
 type: liquid
 path: /tags/
-
-# -----------------------------
-
-# HTML Compression
-
-# -----------------------------
 
 compress_html:
 clippings: all
