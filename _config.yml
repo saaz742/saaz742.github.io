@@ -1,6 +1,6 @@
 # =============================
 
-# Sara Azarnoush - Jekyll Site Config
+# Sara Azarnoush - Personal AI / Professional Jekyll Site Config
 
 # =============================
 
@@ -8,10 +8,20 @@ locale: "Tehran - Iran"
 title: "Sara Azarnoush"
 title_separator: "-"
 name: &name "Sara Azarnoush"
-description: &description "Computer Engineering Graduate from Sharif University of Technology"
+description: &description "Computer Engineering Graduate from Sharif University of Technology, AI Enthusiast"
 url: "[https://saaz742.github.io](https://saaz742.github.io)"
 baseurl: ""
 repository: "saaz742/saaz742.github.io"
+
+# -----------------------------
+
+# Theme & Style
+
+# -----------------------------
+
+theme_color: "#1a1a2e"       # dark navy
+highlight_color: "#ff6700"   # bright orange for accents
+font_family: "Inter, sans-serif"
 
 # -----------------------------
 
@@ -23,16 +33,17 @@ author:
 avatar: "me.jpg"
 name: "Sara Azarnoush"
 pronouns: "she/her"
-bio: "Sharif University CE graduate focusing on Machine Learning, NLP, and multimodal AI. Passionate about building intelligent systems, research, and real-world AI applications."
+bio: "Sara Azarnoush is a Computer Engineering graduate from Sharif University of Technology, passionate about Machine Learning, NLP, Computer Vision, and AI-driven innovation. She builds intelligent systems, explores research frontiers, and develops products that merge data science with real-world applications. Currently working on AI projects and expanding her personal research and professional portfolio."
 location: "Tehran, Iran"
 email: "[Sara.azarnoushh@gmail.com](mailto:Sara.azarnoushh@gmail.com)"
 
 # -----------------------------
 
-# Academic Profiles
+# Academic / Research Profiles
 
 # -----------------------------
 
+author_profiles:
 arxiv: "[https://arxiv.org/a/azarnoush_s.html](https://arxiv.org/a/azarnoush_s.html)"
 googlescholar: "[https://scholar.google.com/citations?user=VqBL8YAAAAAJ&hl=en](https://scholar.google.com/citations?user=VqBL8YAAAAAJ&hl=en)"
 orcid: "[https://orcid.org/0000-0002-7435-0535](https://orcid.org/0000-0002-7435-0535)"
@@ -43,10 +54,11 @@ scopus: ""
 
 # -----------------------------
 
-# Development / Data Science
+# Development / AI Projects
 
 # -----------------------------
 
+dev_profiles:
 github: "[https://github.com/saaz742](https://github.com/saaz742)"
 bitbucket: "[https://bitbucket.org/saaz742](https://bitbucket.org/saaz742)"
 kaggle: "[https://www.kaggle.com/saraazar](https://www.kaggle.com/saraazar)"
@@ -59,7 +71,9 @@ codepen: "[https://codepen.io/saaz742](https://codepen.io/saaz742)"
 
 # -----------------------------
 
+creative_profiles:
 dribbble: "[https://dribbble.com/sara-azarnoush](https://dribbble.com/sara-azarnoush)"
+instagram: "[https://instagram.com/saaz742](https://instagram.com/saaz742)"
 
 # -----------------------------
 
@@ -67,11 +81,11 @@ dribbble: "[https://dribbble.com/sara-azarnoush](https://dribbble.com/sara-azarn
 
 # -----------------------------
 
+social_profiles:
 linkedin: "[https://www.linkedin.com/in/sara-azarnoush](https://www.linkedin.com/in/sara-azarnoush)"
 twitter: "[https://twitter.com/AzarnoushSara](https://twitter.com/AzarnoushSara)"
 bluesky: "[https://bsky.app/profile/saaz742.bsky.social](https://bsky.app/profile/saaz742.bsky.social)"
 telegram: "[https://t.me/saaz742](https://t.me/saaz742)"
-instagram: "[https://instagram.com/saaz742](https://instagram.com/saaz742)"
 
 # -----------------------------
 
@@ -79,6 +93,7 @@ instagram: "[https://instagram.com/saaz742](https://instagram.com/saaz742)"
 
 # -----------------------------
 
+gaming_profiles:
 steam: "[https://steamcommunity.com/id/saaz742](https://steamcommunity.com/id/saaz742)"
 
 # -----------------------------
@@ -107,7 +122,6 @@ words_per_minute: 160
 future: true
 read_more: "disabled"
 talkmap_link: false
-
 comments:
 provider: false
 
